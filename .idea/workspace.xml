@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc4b1072-b194-4da3-91d3-8b0f3ab70924" name="Changes" comment="" />
+    <list default="true" id="cc4b1072-b194-4da3-91d3-8b0f3ab70924" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.main.executor": "Run",
     "Python.plot.executor": "Run",
     "Python.test.executor": "Run",
@@ -89,7 +92,7 @@
       <workItem from="1744592948476" duration="2004000" />
       <workItem from="1744913775476" duration="725000" />
       <workItem from="1744927088573" duration="175000" />
-      <workItem from="1744939969252" duration="1107000" />
+      <workItem from="1744939969252" duration="2984000" />
     </task>
     <servers />
   </component>

@@ -36,8 +36,8 @@ def display_pie_chart(ta_list):
     sizes = [ta[1] for ta in ta_list]
 
     # Generate distinct colors dynamically
-    cmap = plt.cm.get_cmap('tab20', len(labels))  # Get a colormap
-    colors = [cmap(i) for i in range(len(labels))]  # Generate a unique color for each entry
+    cmap = plt.cm.get_cmap('tab20', len(labels))
+    colors = [cmap(i) for i in range(len(labels))]
 
     # Create pie chart
     plt.figure(figsize=(7, 7))

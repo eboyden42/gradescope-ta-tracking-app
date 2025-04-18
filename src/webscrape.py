@@ -11,14 +11,14 @@ def login(username, password):
     options.add_argument("--headless")  # Run Chrome in headless mode
 
     # Set up Selenium WebDriver
-    driver = webdriver.Chrome(options=options)  # Make sure you have ChromeDriver installed
+    driver = webdriver.Chrome(options=options)
 
     # Open the Gradescope login page
     driver.get('https://gradescope.com/login')
 
     # Find the login fields and enter credentials
-    email_field = driver.find_element(By.ID, 'session_email') # Corrected line
-    password_field = driver.find_element(By.ID, 'session_password') # Corrected line
+    email_field = driver.find_element(By.ID, 'session_email')
+    password_field = driver.find_element(By.ID, 'session_password')
     email_field.send_keys(username)
     password_field.send_keys(password)
     password_field.send_keys(Keys.RETURN)
@@ -90,7 +90,6 @@ def get_tas(courseID, driver):
             name = name_element.text.strip()
             ta_names.append([name, 0])
 
-    # Print the extracted TA names
     return ta_names
 
 def count_questions_graded(ta_list, question_link, driver):
